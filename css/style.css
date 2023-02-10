@@ -1,0 +1,47 @@
+#page_header {
+    display:grid;
+    background-color: #0084ff;
+    color: white;   
+    place-items: left;
+    margin-bottom: 50px;
+    width: 400px;
+    
+    
+
+}
+#page_main {
+    display: grid;
+    place-items: center;
+    background-color: #B8DDFF;
+    width:100%;
+    
+    
+    
+
+}
+
+#head{
+    display:grid;
+    color:#0084ff;
+}
+ 
+.page{
+    display:grid;
+    color:#9693E6;
+}
+
+#app{
+    display: grid;
+    width: 200px;
+    color: white;
+    background-color: #0084ff;
+    padding:10px;
+    
+    
+}
+
+#image{
+    display:grid;
+    align-self:center;
+    width: 300px;
+}
