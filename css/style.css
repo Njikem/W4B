@@ -17,6 +17,7 @@
     
     
     
+    
 
 }
 
@@ -44,4 +45,286 @@
     display:grid;
     align-self:center;
     width: 300px;
+}
+#page_section {
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+    background-color: #CAF0DB;
+    width:100%;
+    margin-top: 60px;
+    
+}
+
+#text{
+    display: grid;
+    color:  #54C788;
+}
+
+.note{
+    display: grid;
+    color:#54C788;
+}
+
+#section_main{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    background-color: pink;
+}
+
+#pet{
+    display:grid;
+    color: palevioletred;
+}
+
+.mat{
+    display: grid;
+    color: palevioletred;
+}
+
+#main{
+    display:grid;
+    place-items: center;
+    margin-top: 60px;
+    background-color: pink;
+
+}
+#petty{
+    display:grid;
+    color:#FFC166;
+}
+
+.teen{
+    display:grid;
+    color:#aa9118;
+}
+
+#section_brand{
+    display:grid;
+    place-items: center;
+    margin-top: 60px;
+    background-color:  #D5D4F5;
+}
+
+#bend{
+    display:grid;
+    color:#9693E6;
+
+}
+
+.branding{
+    display:grid;
+    color:#9693E6;
+}
+
+#section_weave{
+    display:grid;
+    margin-top: 60px;
+    background-color:#9693E6;
+    place-items:center;
+}
+
+#plan{
+    display: grid;
+    color: white;
+}
+
+.idea{
+    display:grid;
+    color:white;
+    font-size:large;
+}
+
+#class{
+    display:grid;
+    background-color:white;
+}
+#dev{
+    display:grid;
+    color:#9693E6;
+}
+
+.front{
+    display:grid;
+    font-style: italic;
+    font-size: larger;
+}
+
+#arrow{
+    display:grid;
+    object-fit:cover;
+    align-self:center;
+    border-radius: 30px;
+}
+
+#test{
+    display: grid;
+    place-items: center;
+    margin:60px
+
+}
+
+.comit{
+    color:#9693E6;
+}
+#sec{
+    color:#333333;
+}
+.strong{
+    color:#333333;
+    font-size:larger;
+}
+
+#testi {
+    display:grid;
+    place-items: center;
+    font-size:larger;
+    background-color: pink;
+}
+
+.sec{
+    display:grid;
+    color:#333333;
+    blockquote:before{
+
+    }
+}
+
+#nat{
+    color:#333333;
+}
+
+#image{
+    border-radius: 50%;
+}
+
+#fred{
+    display:grid;
+    border-radius: 90%;
+}
+#section{
+    display:grid;
+    place-items: center;
+    background-color:darksalmon;
+    margin-top: 60px;
+}
+#sec_page{
+    display:grid;
+    place-items: center;
+    margin-top: 60px;
+    background-color: #54C788;
+}
+#img{
+    border-radius: 50%;
+}
+ 
+#Benefit{
+    Display:grid;
+    place-items: center;
+    margin: 70px;
+}
+
+#many{
+    color:#9693E6;
+    
+}
+
+#quik{
+    color:#9693E6;
+}
+
+#more{
+    color:white;
+    padding: 5px 30px;
+    border-radius: 30%;
+    background-color: #9692E6;
+}
+
+#send{
+    color:white;
+    background-color: #9693E6;
+    padding: 40px 7px;
+}
+
+.page{
+    color:#9693E6;
+}
+ 
+#me{
+   color:#9693E6; 
+    margin-top: 70px
+    place-self;center;
+}
+
+#mean{
+    display:grid;
+    place-items: center;
+    color:#333333;
+    font-size: larger;
+}
+#lol{
+    margin:40px;
+}
+
+#email{
+    margin-top:70px;
+    border-radius: 40%;
+
+}
+#pass{
+    padding:10px;
+    color: white;
+    background-color: #9693E6;
+}
+
+#most{
+    place-items: center;
+    display:grid;
+}
+
+#pass{
+    display:grid;
+    padding:15px 10px;
+}
+.h{
+    color:#9693E6;
+}
+
+#lean{
+    display:grid;
+    place-items: center;
+    margin-top: 7%;
+    background-color: #9693E6;
+}
+
+#free{
+    color:#FFC166;
+}
+
+#gold{
+color:white;
+}
+
+#start{
+    display:grid;
+    color:#9693E6;
+    padding:20px 70px;
+    border-radius: 90%;
+}
+
+.lem{
+    color:white;
+}
+#copy{
+    color:white;
+}
+#see{
+    color:#D5D4F5;
+}
+
+#sam{
+    color:white;
+    background-color: black;
+    margin-top: 70px;
 }
