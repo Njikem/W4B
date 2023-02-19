@@ -26,6 +26,9 @@
 #page_section{
   display:grid;
   place-items: center;
+  background-color: #B8DDFF;
+  border: bold;
+  border-radius: 25px;
 }
 
 #demo{
@@ -49,4 +52,362 @@
 #image{
   display:grid;
   margin-bottom: 50px;
+}
+
+#main_code{
+  display:grid;
+  place-items: center;
+  background-color:  #B8DDFF;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px;
+  border: bold;
+  border-radius: 25px;
+
+}
+
+#page_design{
+  display:grid;
+  place-items: center;
+  background-color: mediumorchid;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: bold;
+  border-radius: 25px;
+}
+
+#page_dev{
+  display:grid;
+  place-items: center;
+  background-color: hotpink;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: bold;
+  border-radius: 25px;;
+}
+
+#page_brand{
+  display:grid;
+  place-items: center;
+  background-color: #D5D4F5;
+  margin-bottom: 40px;
+  border: bold;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+#page_weave{
+  display:grid;
+  background-color:#9693E6 ;
+  place-items: center;
+  margin-bottom: 40px;
+  border: bold;
+  border-radius: 25px;
+}
+
+#plan{
+  display:grid;
+  color:white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ 
+#petty{
+  display:grid;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#man{
+  display:grid;
+  background-color: white;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+#apple{
+  display:grid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#test{
+  display:grid;
+  place-items: center;
+}
+
+#young{
+  display:grid;
+  color:#333333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#expert{
+  display:grid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color:#9693E6;
+}
+
+#place{
+  display:grid;
+  color:#333333;
+  margin-bottom: 40px;
+  font-size: larger;
+  text-align:center;
+}
+
+#three{
+  display:grid;
+  place-items: center;
+  background-color: pink;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding:50px 50px;
+  border:bold;
+  border-radius: 25px;
+}
+
+#moon{
+  display:grid;
+  border-radius: 400px;
+  margin-bottom: 30px;
+}
+
+#star{
+  display:grid;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#nat{
+  display:grid;
+  text-align: center;
+}
+
+#two{
+  display:grid;
+  place-items: center;
+  background-color: burlywood;
+  margin-bottom: 40px;
+  padding: 80px 30px;
+  border:bold;
+  border-radius: 25px;
+}
+
+#queen{
+  display:grid;
+  border-radius: 400px;
+  margin-bottom: 40px;;
+}
+
+#pages{
+  display:grid;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#cell{
+  display:grid;
+  text-align: center;
+}
+
+#one{
+  display:grid;
+  place-items: center;
+  margin-bottom: 40px;
+  padding:50px 50px;
+  border: bold;
+  border-radius: 25px;
+  background-color: #CAF0DB;
+}
+
+#color{
+  display:grid;
+  border-radius: 250px;
+  margin-bottom: 40px;
+}
+
+#plant{
+  display:grid;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#hot{
+  display:grid;
+  text-align: center;
+}
+
+#page_benefit{
+  display:grid;
+  background-color: #9693E6;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+#heat{
+  display:grid;
+  color:#9693E6;
+  margin-bottom: 40px;
+}
+
+#hello{
+  display:grid;
+  color:white;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  font-size: larger;
+  text-align: center;
+}
+
+#whom{
+  display:grid;
+  background-color: white;
+  padding:50px;
+  border-radius: 25px;
+}
+
+#mum{
+  display:grid;
+  background-color: white;
+  border-radius: 25px;
+  padding:30px;
+}
+
+#high{
+  display:grid;
+  color:#9693E6;
+  margin-bottom: 40px;
+}
+
+#more{
+  display:grid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding:9px 3px;
+  align-items: start;
+  border-radius: 25px;
+  background-color: #9693E6;
+  color:white;
+}
+
+#yellow{
+  display:grid;
+  color:#9693E6;
+  font-size: large;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#bread{
+  display:grid;
+  border: bold;
+  border-radius: 250px;
+}
+
+#page_about{
+  display:grid;
+  place-items: center;
+
+}
+
+#about{
+  display:grid;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color:#9693E6;
+  font-size: x-large;
+}
+
+#meal{
+  display:grid;
+  margin-bottom: 40px;
+  font-size: larger;
+  color:#333333;
+}
+#lol{
+  display:grid;
+  margin-bottom: 50px;
+  font-size: larger;
+  color:#333333;
+}
+
+#page_boss{
+  display:grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+#boss{
+  display:grid;
+  margin-top: 40px;
+  padding: 10px 40px;
+  background-color:#9693E6;
+  color:white;
+  
+}
+
+#page_start{
+  display:grid;
+  place-items: center;
+  background-color: #9693E6;
+  margin-top: 40px;
+}
+
+#Get{
+  display:grid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color:#D5D4F5;
+}
+
+#sample{
+  display:grid;
+  color:white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+#free{
+  display:grid;
+  text-align: center;
+  color:orange;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+#place{
+  display:grid;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#button{
+  display:grid;
+  padding: 10px 40px;
+  border: bold;
+  border-radius: 25px;
+  color:#9693E6;
+  margin-bottom: 50px;
+  font-size: larger;
+  align-self: center;
+}
+
+#copy{
+  display:grid;
+  color:white;
+  margin-bottom: 50px;
+}
+
+#page_footer{
+  display:grid;
+  background-color: black;
+  color:white;
+  place-items: center;
+  padding:30px 10px
 }
