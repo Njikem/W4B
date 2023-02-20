@@ -29,6 +29,12 @@
   background-color: #B8DDFF;
   border: bold;
   border-radius: 25px;
+  
+}
+
+#store{
+  display:grid;
+  margin-right: 40px;
 }
 
 #demo{
@@ -60,10 +66,16 @@
   background-color:  #B8DDFF;
   margin-bottom: 40px;
   margin-top: 40px;
-  padding: 30px;
+  padding: 150px 50px;
   border: bold;
   border-radius: 25px;
 
+}
+
+#main_design{
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #page_design{
@@ -410,4 +422,34 @@
   color:white;
   place-items: center;
   padding:30px 10px
+}
+
+#main_store{
+  display:grid;
+place-items: center;
+grid-template-columns: 1fr 1fr;
+}
+
+#section_more{
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#section_three{
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#section_four{
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#page_us{
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
 }
