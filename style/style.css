@@ -1,0 +1,938 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+}
+
+/*Mobile*/
+
+#main-header{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #0084FF;
+
+}
+
+.logo{
+    color: #fff;
+    font-weight: 900;
+    justify-self: start;
+   
+}
+
+
+#main-body{
+    min-height: 80vh;
+   display: grid;
+}
+
+.app-store{
+    
+   background-color: #B8DDFF;
+   border-radius: 18px;
+   margin-top: 50px;
+
+}
+
+
+
+#main-body .demo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    color: #0084FF;
+}
+
+
+.app-store p{
+    margin-left: 25px;
+    line-height: 2;
+    color: #0084FF;
+  
+}
+
+.apple{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 28px;
+    position: relative;
+   
+
+}
+
+.apple button{
+    padding-top: 12px;
+    padding-left: 65px;
+    padding-right: 60px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0084FF;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: .3px;
+    cursor: pointer;
+
+}
+
+.apple svg{
+    position: absolute;
+    left: 1px;
+    margin-top: 12px;
+    margin-left: 38px; 
+}
+
+
+.code{
+
+    margin-top: 26px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color:  #CAF0DB;
+    border-radius: 18px;
+   padding-bottom: 30px;
+}
+
+.code svg{
+    width: 100px;
+    height: 100px;
+    margin-top: 37px;
+}
+
+.code-one h1{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:#54C788;
+    font-weight: 900;  
+
+}
+
+
+
+.code-one  p{
+    line-height: 2;
+    color: #333333;
+    font-size: medium;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    
+}
+
+#design{
+   margin-top: 26px;
+    display: grid;   
+}
+
+.second-design{
+
+    background-color:  #FFD2D2;
+    border-radius: 18px;
+    padding-bottom: 30px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.second-design svg{
+
+    width: 100px;
+    height: 100px;
+    margin-top: 37px;
+
+}
+
+.one-design h1{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #FF8A8A;
+    font-weight: 900
+
+}
+
+
+.one-design p{
+    line-height: 2;
+    color: #FF8A8A;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: .5px;
+
+}
+
+
+#development{
+    margin-top: 26px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color:  #FFE7C4;
+    border-radius: 18px;
+   padding-bottom: 30px;
+}
+
+#development svg{
+    width: 100px;
+    height: 100px;
+    margin-top: 37px;
+}
+
+.one-dev h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:  #FFC166;
+    font-weight: 900
+}
+
+.one-dev p{
+
+    line-height: 2;
+    color: #FFC166;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+
+
+#branding{
+    margin-top: 26px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color:   #D5D4F5;
+    border-radius: 18px;
+   padding-bottom: 30px;
+}
+
+#branding svg{
+    width: 100px;
+    height: 100px;
+    margin-top: 37px;
+}
+
+.one-brand h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:  #9693E6;
+    font-weight: 900
+}
+
+.one-brand p{
+
+    line-height: 2;
+    color: #9693E6;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+
+#planning{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 26px;
+    background-color: #9693E6;
+}
+
+
+
+#planning .wave{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+.one-plan h1{
+    margin-bottom: 40px;
+    font-size: xx-large;
+    color:#fff;
+    font-weight: bolder;
+    
+}
+
+.one-plan p{
+    color:#fff;
+    line-height: 2;
+    font-size: large;
+    font-weight: 500;
+}
+
+.app{
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 80px;
+    padding: 23px 23px;
+    border-radius: 35px;
+    margin-bottom: 70px;
+
+}
+
+.app svg{
+    width: 50px;
+    height: 50px;
+}
+
+.two-dev{
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+.two-dev h1{
+    margin-bottom: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+    color:  #9693E6;
+}
+
+.two-dev p{
+    line-height: 2;
+    color: #9693E6;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: .5px;
+
+}
+
+#planning svg{
+ margin-left: 100px;
+ margin-top: 25px;
+ background-color: #D5D4F5; 
+ color: darkgrey;
+ padding: 5px;
+ border-radius: 50px;
+  
+}
+
+
+#testimonials{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.one-test h3{
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large;
+
+}
+
+.one-test h1{
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: .6;
+    color: #9693E6;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+.one-test p{
+
+    color:#333333;
+    font-size: large;
+    font-weight: 900;
+    line-height: 2;
+   
+   
+}
+
+
+
+#nat{
+    margin-top: 60px;
+    
+}
+
+.test{
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color:  #FFD2D2;
+    padding-bottom: 30px;
+    border-radius: 25px;
+
+}
+
+#nat img{
+    margin-bottom: 30px;
+  clip-path: circle();
+  margin-top: 40px;  
+}
+
+.quote p{
+    font-size: larger;
+    font-weight: 900;
+    color: #333333;
+    line-height: 2;
+}
+ 
+.prion{
+    text-align: center;
+}
+
+#nat h4{
+    margin-top: 18px;
+    color:#333333;
+    font-size: larger;
+    font-weight: 900;
+    
+}
+
+
+#testimonial_two{
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #FFE7C4;
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+#testimonial_two img{
+    margin-bottom: 30px;
+  clip-path: circle();
+  margin-top: 40px; 
+}
+
+
+#testimonial_two h4{
+    margin-top: 18px;
+    color:#333333;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+#testimonial_three{
+
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color:  #CAF0DB;
+    padding-bottom: 30px;
+    border-radius: 25px;
+
+}
+
+#testimonial_three img{
+    margin-bottom: 30px;
+    clip-path: circle();
+    margin-top: 40px;
+}
+
+#testimonial_three h4{
+    margin-top: 18px;
+    color:#333333;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+
+#benefits{
+    background-color: #9693E6;
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+.work h1{
+    color: #fff;
+    
+    margin-bottom: 60px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.quality{
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 30px;
+   border-radius: 25px;
+   margin-bottom: 30px;
+}
+
+.quality h2{
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   color:  #9693E6;
+   font-weight: bold;
+}
+
+.quality p{
+    margin-left: 20px;
+    color:  #9693E6;
+    font-size: large;
+}
+
+.quality button{
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 900;
+    background-color:  #9693E6;
+    letter-spacing: 1px;
+    font-size: medium;
+    border: none;
+
+
+}
+
+.quality h1{
+    margin-left: 20px;
+    color:  #9693E6;
+    font-size: xxx-large;
+  
+}
+
+
+#about{
+    margin-top: 90px;
+}
+
+.path h1{
+    margin-bottom: 30px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #9693E6;
+}
+
+#about p{
+    margin-left: 20px;
+    line-height: 2;
+    font-size: medium;
+    font-weight: 500;
+    color:#333333;
+}
+
+#about .equip{
+    margin-top: 50px;
+}
+
+
+#boss{
+    margin-top: 80px;
+}
+
+
+.box img{
+    clip-path: circle();
+    
+    
+}
+
+.box{
+    
+    position:relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.box svg{
+position: absolute;
+right: 45px;
+z-index: 2;
+}
+
+.hight{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.hight h1{
+    text-align: center;
+    color:  #9693E6;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+.hight button{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding:10px 20px;
+    background-color: #9693E6;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.hight svg{
+    margin-right: 8px;
+   
+}
+
+
+#free{
+    background-color:  #9693E6;
+    margin-top: 80px;
+    padding-top: 70px;
+   padding-bottom: 80px;
+}
+
+.get{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.get h4{
+    color: #D5D4F5;
+    letter-spacing: .9px;
+    margin-bottom: 20px;
+}
+
+.get h2{
+  color: #fff;
+  font-size: x-large;
+}
+
+.more{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.more h1{
+    color:#FFC166;
+    font-size: xx-large;
+    letter-spacing: .9px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+   
+}
+
+
+.more  p{
+    
+    color: #fff;
+    line-height: 2;
+    font-size: large;
+}
+
+
+.more button{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding: 20px 90px;
+    border-radius: 50px;
+    border: none;
+    color: #9693E6;
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: .9px;
+    cursor: pointer
+}
+
+
+#free .copy{
+    margin-top: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+   
+}
+
+
+#free .copy a{
+    color: #fff;
+}
+
+
+#footer{
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+/*End of Mobile*/
+
+
+
+
+
+
+
+/*Tablet*/
+
+@media only screen and (min-width:768px){
+
+#main-body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
+
+}
+
+.app-store{
+    margin-right: 20px;
+}
+
+.code{
+    margin-top: 50px;
+    padding-bottom: 10px;
+
+    
+}
+
+.code svg {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+  
+
+.code-one h1 {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    color: #54C788;
+    font-weight: 900;
+}
+
+
+
+.code-one  p {
+    text-align: center;
+    line-height: 2;
+    color: #333333;
+    font-size: medium;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    width: 95%;
+}
+
+.app-store img{
+     height: 670px;
+     width: 550px;
+}
+
+
+.code svg{
+    width: 120px;
+    height: 120px;
+    margin-top: 37px;
+}
+
+
+#design{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+.second-design{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#development{
+    margin-right: 20px;
+}
+
+
+#design p{
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+
+#support{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.quality{
+    margin-right: 20px;
+}
+
+
+#about{
+    display: flex;
+    
+}
+
+
+#about p {
+    margin-left: 20px;
+    line-height: 2;
+    font-size: medium;
+    font-weight: 500;
+    color: #333333;
+    width: 90%;
+}
+
+
+.box img {
+    clip-path: circle();
+    margin-right: 25px;
+}
+
+
+
+.box{
+    
+    position:relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.box svg{
+position: absolute;
+right: 10px;
+z-index: 2;
+}
+
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.test p{
+    margin-right: 80px;
+    
+}
+
+
+#testimonial_two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+#testimonial_two p{
+    
+    margin-right: 80px;
+
+}
+
+
+    
+
+#testimonial_three{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+#testimonial_three p{
+    margin-right: 80px;
+}
+
+
+
+
+}
+
+
+
+/* End of Tablet*/
+
+
+
+
+
+
+
+
+/*Desktop*/
+
+@media only screen and (min-width: 992px){
+
+
+
+#support{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;  
+    
+    
+}
+
+#about{
+    margin-left: 200px;
+}
+
+.us p{
+    width: 100%;
+}
+
+
+.second-plan{
+    display: flex;
+}
+
+.one-plan{
+    margin-top: 280px;
+    margin-right: 35px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* End of Desktop*/
